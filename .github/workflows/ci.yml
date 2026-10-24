@@ -24,3 +24,4 @@ jobs:
         run: echo "Deploying with token $APP_TOKEN"
         env:
           APP_TOKEN: ${{ secrets.APP_TOK }}
+          Permissions: content: read
